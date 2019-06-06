@@ -1,0 +1,35 @@
+{
+  "name": "periodic-table",
+  "version": "0.1.0",
+  "description": "The periodic table of elements, depicting chemical elements, arranged by atomic number, electron configuration, and recurring chemical properties.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiorgiBeriashvili/periodic-table.git"
+  },
+  "keywords": [
+    "beginner-friendly",
+    "chemistry",
+    "open-source",
+    "periodic-table"
+  ],
+  "author": "Giorgi Beriashvili",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GiorgiBeriashvili/periodic-table/issues"
+  },
+  "homepage": "https://github.com/GiorgiBeriashvili/periodic-table#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.4.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
