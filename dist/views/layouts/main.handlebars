@@ -5,22 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Page Not Found</title>
+    <title>{{ title }}</title>
     <meta name="author" content="Giorgi Beriashvili">
     <meta name="description"
         content="The periodic table of elements, depicting chemical elements, arranged by atomic number, electron configuration, and recurring chemical properties.">
     <meta name="keywords" content="beginner-friendly, chemistry, open-source, periodic-table">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/main.css">
+    {{#each css}}
+    <link rel="stylesheet" href="/css/{{this}}" />
+    {{/each}}
 </head>
 
 <body>
-    <main>
-        <header>
-            <h1>Page not found.</h1>
-        </header>
-    </main>
+    {{{ body }}}
 </body>
 
 </html>
