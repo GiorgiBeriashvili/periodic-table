@@ -13,7 +13,7 @@ Pre-requisites: Node.js and npm.js installed on your system.
 ```sh
 # Clone the repository
 git clone https://github.com/GiorgiBeriashvili/periodic-table
-cd cli-timer
+cd periodic-table
 
 # Install the dependencies
 npm install
