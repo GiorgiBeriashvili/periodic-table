@@ -8,7 +8,7 @@ Implementation of the Periodic Table as a web project.
 
 ## Building
 
-Pre-requisites: Node.js and npm.js installed on your system.
+Pre-requisites: git, Node.js and npm.js installed on your system.
 
 ```sh
 # Clone the repository
