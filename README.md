@@ -33,6 +33,8 @@ This project would not be possible without the data leveraged from these followi
 * https://github.com/TamalAnwar/periodic-table - for the HTML and CSS of the Periodic Table
 * https://github.com/Bowserinator/Periodic-Table-JSON - for the JSON respresentation of chemical element data
 
+<hr>
+
 ## License
 
 This project is licensed under:
