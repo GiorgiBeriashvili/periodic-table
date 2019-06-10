@@ -37,4 +37,4 @@ This project would not be possible without the data leveraged from these followi
 
 This project is licensed under:
 
-* Apache License, Version 2.0 ([LICENSE-APACHE](https://github.com/GiorgiBeriashvili/cli-timer/blob/master/LICENSE-APACHE "Copy of the Apache license (version 2.0)"))
+* Apache License, Version 2.0 ([LICENSE](https://github.com/GiorgiBeriashvili/periodic-table/blob/master/LICENSE "Copy of the Apache license (version 2.0)"))
