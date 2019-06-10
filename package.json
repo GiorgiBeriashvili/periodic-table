@@ -1,12 +1,12 @@
 {
   "name": "periodic-table",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The periodic table of elements, depicting chemical elements, arranged by atomic number, electron configuration, and recurring chemical properties.",
   "main": "src/index.js",
   "scripts": {
     "develop": "nodemon src/index.js --exec babel-node",
-    "generate": "babel-node src/generate-map.js",
-    "test": "babel-node src/test.js",
+    "generate": "babel-node src/scripts/generate-map.js",
+    "test": "babel-node src/scripts/test.js",
     "start": "babel-node src/index.js"
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/GiorgiBeriashvili/periodic-table#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "node": "^12.4.0",
@@ -36,6 +37,7 @@
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "body-parser": "^1.19.0",
     "eslint": "^5.16.0",
     "node-fetch": "^2.6.0",
     "nodemon": "^1.19.1"

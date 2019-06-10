@@ -10,6 +10,9 @@
     <meta name="description"
         content="The periodic table of elements, depicting chemical elements, arranged by atomic number, electron configuration, and recurring chemical properties.">
     <meta name="keywords" content="beginner-friendly, chemistry, open-source, periodic-table">
+    {{#each script}}
+    <script src="{{ this }}"></script>
+    {{/each}}
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     {{#each css}}
     <link rel="stylesheet" href="/css/{{this}}" />

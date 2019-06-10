@@ -1,0 +1,37 @@
+<form method="POST" action="/send-contact">
+    <div>
+        <label for="name"><b>First name:</b></label>
+        <input type="text" name="name" required>
+    </div>
+
+    <div>
+        <label for="surname"><b>Last name:</b></label>
+        <input type="text" name="surname" required>
+    </div>
+
+    <div>
+        <label for="email"><b>E-mail:</b></label>
+        <input type="email" name="email" required>
+    </div>
+
+    <div>
+        <label for="company"><b>Company:</b></label>
+        <input type="text" name="company">
+    </div>
+
+    <div>
+        <label for="phone"><b>Phone:</b></label>
+        <input type="tel" name="phone">
+    </div>
+
+    <div>
+        <label for="message"><b>Message:</b></label>
+        <textarea name="message" required></textarea>
+    </div>
+
+    <br />
+
+    <div class="button">
+        <button type="submit" id="submit-button">Send</button>
+    </div>
+</form>
