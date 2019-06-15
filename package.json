@@ -1,6 +1,6 @@
 {
   "name": "periodic-table",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "The periodic table of elements, depicting chemical elements, arranged by atomic number, electron configuration, and recurring chemical properties.",
   "main": "src/index.js",
   "scripts": {

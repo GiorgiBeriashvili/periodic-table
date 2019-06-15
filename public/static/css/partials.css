@@ -1,0 +1,23 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.25;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1vw;
+    padding: 1vw;
+    padding-bottom: 0.3vw;
+    padding-top: 0.1vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 2vw;
+}
+
+#navbar a:hover {
+    transition: transform .25s;
+    transform: scale(1.25);
+}

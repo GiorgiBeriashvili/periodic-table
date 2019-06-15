@@ -1,8 +1,12 @@
-<h1>The route "{{ route }}" led you here.</h1>
+{{> navigation }}
 
-{{{ message }}}
+<div class="return">
+    <h1>The route "{{ route }}" led you here.</h1>
 
-<br />
+    {{{ message }}}
 
-<button onclick="window.location.href = 'http://localhost:8080/'">Home</button>
-<button onclick="history.back(-1)">Return</button>
+    <br />
+
+    <button onclick="window.location.href = 'http://localhost:8080/'">Home</button>
+    <button onclick="history.back(-1)">Return</button>
+</div>

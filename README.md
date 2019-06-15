@@ -18,7 +18,7 @@ cd periodic-table
 # Install the dependencies
 npm install
 
-# Run the server
+# Run the server (by default) on http://localhost:8080
 npm start
 ```
 

@@ -1,8 +1,6 @@
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-
-
 
 .button {
     padding-left: 90px;
@@ -31,4 +29,13 @@ button:hover {
     cursor: pointer;
     background-color: #4CAF50;
     color: white;
+}
+
+#statistics-title {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.return {
+    margin-left: 50px;
 }

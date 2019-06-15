@@ -1,14 +1,18 @@
-<h1>You have submitted the form with following information:</h1>
+{{> navigation }}
 
-<br />
+<div class="center-wrapper">
+    <h1>You have submitted the form with following information:</h1>
 
-<p><em><b>First name:</b></em> {{ firstName }}</p>
-<p><em><b>Last name:</b></em> {{ lastName }}</p>
-<p><em><b>E-mail:</b></em> {{ email }}</p>
-<p><em><b>Company:</b></em> {{ company }}</p>
-<p><em><b>Phone:</b></em> {{ phone }}</p>
-<p><em><b>Message:</b></em> {{ message }}</p>
+    <br />
 
-<br />
+    <p><em><b>First name:</b></em> {{ firstName }}</p>
+    <p><em><b>Last name:</b></em> {{ lastName }}</p>
+    <p><em><b>E-mail:</b></em> {{ email }}</p>
+    <p><em><b>Company:</b></em> {{ company }}</p>
+    <p><em><b>Phone:</b></em> {{ phone }}</p>
+    <p><em><b>Message:</b></em> {{ message }}</p>
 
-<button onclick="history.back(-1)">Return</button>
+    <br />
+
+    <button onclick="history.back(-1)">Return</button>
+</div>

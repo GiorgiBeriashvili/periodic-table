@@ -11,13 +11,18 @@ body {
     font-size: 16px;
     line-height: 1;
     text-shadow: 0 1px 0 #ffffff;
-    max-width: 75%;
+    max-width: 100%;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 auto;
     max-width: 1700px;
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5vw;
 }
 
 #table {
@@ -38,7 +43,10 @@ body {
 }
 
 .element:hover {
-  background-color: #ffffff;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    transition: transform .25s;
+    transform: scale(1.125);
 }
 
 .number {
